@@ -16,7 +16,7 @@ main {
     padding: 2rem;
 }
 
-.project {
+.project, .certification {
     margin-bottom: 1.5rem;
 }
 
@@ -28,4 +28,26 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+/* Ajoute des styles spécifiques pour la section certifications */
+#certifications {
+    margin-top: 2rem;
+}
+
+.certification h3 {
+    margin-bottom: 0.5rem;
+}
+
+.certification p {
+    margin-bottom: 0.5rem;
+}
+
+.certification a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.certification a:hover {
+    text-decoration: underline;
 }
